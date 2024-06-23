@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ExerciciosAulaC_
+namespace Exercicios
 {
-    public partial class FormChamados : Form
+    public partial class FrmChamado : Form
     {
-        public FormChamados()
+        public FrmChamado()
         {
             InitializeComponent();
+        }
+
+        private void btnCancelarChamado_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

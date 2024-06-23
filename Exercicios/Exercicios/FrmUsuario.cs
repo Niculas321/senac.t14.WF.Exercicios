@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ExerciciosAulaC_
+namespace Exercicios
 {
-    public partial class FormUsuarios : Form
+    public partial class FrmUsuario : Form
     {
-        public FormUsuarios()
+        public FrmUsuario()
         {
             InitializeComponent();
+        }
+
+        private void btnVoltarUsuario_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
