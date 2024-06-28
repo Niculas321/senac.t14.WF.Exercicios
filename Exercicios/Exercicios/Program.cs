@@ -1,4 +1,4 @@
-namespace ExerciciosAulaC_
+namespace Exercicios
 {
     internal static class Program
     {
