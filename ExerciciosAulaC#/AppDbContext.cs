@@ -1,16 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using Microsoft.EntityFrameworkCore;
 
-namespace Exercicios
+namespace ExerciciosAulaC_
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<Usuario> Usuarios { get; set; }
-
+        public DbSet<Usuarios> Usuarios { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder
        optionsBuilder)
         {

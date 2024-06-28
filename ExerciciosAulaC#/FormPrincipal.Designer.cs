@@ -1,14 +1,14 @@
-﻿namespace Exercicios
+﻿namespace ExerciciosAulaC_
 {
-    partial class FrmPrincipal
+    partial class FormPrincipal
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,66 +23,64 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             btnUsuario = new Button();
-            btnChamado = new Button();
+            btnChamados = new Button();
             btnSair = new Button();
             SuspendLayout();
             // 
             // btnUsuario
             // 
-            btnUsuario.Location = new Point(78, 66);
+            btnUsuario.Location = new Point(164, 92);
             btnUsuario.Name = "btnUsuario";
-            btnUsuario.Size = new Size(198, 65);
+            btnUsuario.Size = new Size(174, 70);
             btnUsuario.TabIndex = 0;
-            btnUsuario.Text = "Usuario";
+            btnUsuario.Text = "Usuarios";
             btnUsuario.UseVisualStyleBackColor = true;
             btnUsuario.Click += btnUsuario_Click;
             // 
-            // btnChamado
+            // btnChamados
             // 
-            btnChamado.Location = new Point(78, 172);
-            btnChamado.Name = "btnChamado";
-            btnChamado.Size = new Size(198, 65);
-            btnChamado.TabIndex = 1;
-            btnChamado.Text = "Chamado";
-            btnChamado.UseVisualStyleBackColor = true;
-            btnChamado.Click += btnChamado_Click;
+            btnChamados.Location = new Point(164, 220);
+            btnChamados.Name = "btnChamados";
+            btnChamados.Size = new Size(174, 70);
+            btnChamados.TabIndex = 1;
+            btnChamados.Text = "Chamados";
+            btnChamados.UseVisualStyleBackColor = true;
+            btnChamados.Click += btnChamados_Click;
             // 
             // btnSair
             // 
             btnSair.BackColor = Color.FromArgb(255, 192, 192);
-            btnSair.ForeColor = SystemColors.ControlText;
-            btnSair.Location = new Point(126, 311);
+            btnSair.Location = new Point(200, 403);
             btnSair.Name = "btnSair";
-            btnSair.Size = new Size(100, 41);
+            btnSair.Size = new Size(95, 62);
             btnSair.TabIndex = 2;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = false;
             btnSair.Click += btnSair_Click;
             // 
-            // FrmPrincipal
+            // FormPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            ClientSize = new Size(380, 450);
+            ClientSize = new Size(528, 497);
             Controls.Add(btnSair);
-            Controls.Add(btnChamado);
+            Controls.Add(btnChamados);
             Controls.Add(btnUsuario);
-            Name = "FrmPrincipal";
-            Text = "FrmPrincipal";
+            Name = "FormPrincipal";
+            Text = "FormPrincipal";
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button btnUsuario;
-        private Button btnChamado;
+        private Button btnChamados;
         private Button btnSair;
     }
 }
